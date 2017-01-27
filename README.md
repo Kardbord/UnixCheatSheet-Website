@@ -1,5 +1,5 @@
-     This is just a basic starter website. Nothing special at all, just
-     dusting off the html knowledge and re-learning how to use it.
+This is just a basic starter website. Nothing special at all, just
+learning how to use HTML5.
      
      
      
