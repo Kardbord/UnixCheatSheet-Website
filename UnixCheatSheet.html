@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Unix Cheat Sheet</title>
+	<style type="text/css">
+		td {
+			font-family: "Andale Mono", AndaleMono, monospace;
+		}
+	</style>
+</head>
+
+<!--TODO: Use <img> and get monospace font to work -->
+
+<!--Why does this not work?!-->
+
+<body>
+	<h1>Welcome to the Unix Shell Cheat Sheet!</h1>
+	<h2>Here are just some of the many indespensable Unix shell commands!</h2>
+	<table border="2" style="width:1300px">
+		<tr>
+			<th>Command</th>
+			<th>Function</th>
+			<th>Example</th>
+		</tr>
+		<tr>
+			<td>clear</td>
+			<td>clears the terminal</td>
+			<td>clear</td>
+		</tr>
+		<tr>
+			<td>ls</td>
+			<td>lists all files and folders in the current directory</td>
+			<td>ls</td>
+		</tr>
+		<tr>
+			<td>pwd</td>
+			<td>prints current working directory</td>
+			<td>pwd</td>
+		</tr>
+		<tr>
+			<td>cd [directory]</td>
+			<td>changes the working directory to the specified directory</td>
+			<td>cd Documents/</td>
+		</tr>
+		<tr>
+			<td>which [command]</td>
+			<td>identifies the location of a command</td>
+			<td>which ls</td>
+		</tr>
+		<tr>
+			<td>type [command]</td>
+			<td>gives the type of a command</td>
+			<td>type ls</td>
+		</tr>
+		<tr>
+			<td>alias [command]=[shortcut]</td>
+			<td>aliases a command to a desired shortcut</td>
+			<td>alias clear=clr</td>
+		</tr>
+		<tr>
+			<td>pgrep [program]</td>
+			<td>lists process IDs of a program running on the computer</td>
+			<td>pgrep cats.exe</td>
+		</tr>
+		<tr>
+			<td>pkill [process or program]</td>
+			<td>kills a process or all processes of a program</td>
+			<td>pkill blah.exe</td>
+		</tr>
+		<tr>
+			<td>man [command]</td>
+			<td>provides the user manual for a command</td>
+			<td>man alias</td>
+		</tr>
+		<tr>
+			<td>apropos [searchTerm]</td>
+			<td>searches and displays the manual files for matches to the search term</td>
+			<td>apropos list</td>
+		</tr>
+		<tr>
+			<td>history</td>
+			<td>provides extensive history of user-run Unix Shell commands</td>
+			<td>history</td>
+		</tr>
+		<tr>
+			<td>sudo</td>
+			<td>gives temporary root privileges</td>
+			<td>sudo apt update</td>
+		</tr>
+		<tr>
+			<td>sudo apt update</td>
+			<td>update the local package index with the latest changes made in the repositories</td>
+			<td>sudo apt update</td>
+		</tr>
+		<tr>
+			<td>sudo apt upgrade</td>
+			<td>installs the newest versions of packages</td>
+			<td>sudo apt upgrade</td>
+		</tr>
+		<tr>
+			<td>sudo apt install [package]</td>
+			<td>installs the desired package</td>
+			<td>sudo apt install myPackage.tar</td>
+		</tr>
+	</table>
+	<p><span style="font-size:x-large;">For more useful tips, click <a href="https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html" target="_blank">here</a>!</span></p>
+	<a href="http://dilbert.com/" target="blank"><img src="dilbert.png"></a>
+	<p><span style="font-size:x-large;">For more Dilbert, click the image!</span></p>
+</body>
+
+</html>
