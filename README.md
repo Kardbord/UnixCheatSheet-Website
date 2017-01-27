@@ -1,6 +1,9 @@
-This is just a basic starter website. Nothing special at all, just learning how to use HTML5.
+This is just a basic starter website. Nothing special at all, just
+learning how to use HTML5.
 
 GitHub repo: https://github.com/Kardbord/UnixCheatSheet-Website
+     
+     
      
      
      
