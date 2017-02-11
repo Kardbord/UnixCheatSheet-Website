@@ -1,14 +1,51 @@
+h1:first-of-type {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: orange;
+}
+
 td {
 	font-family: "Andale Mono", AndaleMono, monospace;
-	font-size: larger;
+	font-size: 12.5pt;
 	font-weight: bold;
 }
 
-table, tr, td, th {
+th {
+	border-collapse: collapse;
+	border: 2px solid rgb(72, 162, 175);
+	color: rgb(119, 23, 23);
+	vertical-align: middle;
+	text-align: center;
+	font-size: 16pt;
+}
+
+tr:hover:first-child {
+	background-color: white;
+}
+
+tr:nth-child(2n) {
+	background-color: lightgray;
+}
+
+tr:hover {
+	background-color: lightgreen;
+}
+
+table,
+tr,
+td {
 	border-collapse: collapse;
 	border: 2px solid rgb(72, 162, 175);
 	width: 1300px;
 	color: rgb(119, 23, 23);
+	vertical-align: middle;
+	text-align: left;
+}
+
+.hidden {
+	display: none;
 }
 
 body {
