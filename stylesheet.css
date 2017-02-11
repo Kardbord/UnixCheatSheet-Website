@@ -1,0 +1,18 @@
+td {
+	font-family: "Andale Mono", AndaleMono, monospace;
+	font-size: larger;
+	font-weight: bold;
+}
+
+table, tr, td, th {
+	border-collapse: collapse;
+	border: 2px solid rgb(72, 162, 175);
+	width: 1300px;
+	color: rgb(119, 23, 23);
+}
+
+body {
+	background-image: url(background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
